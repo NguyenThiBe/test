@@ -69,7 +69,7 @@ const MyComponent = () => {
   const [dataSearch, setDataSearch] = useState([] as any[]);
   
   useEffect(() => {
-    console.log("Mouted")
+    //console.log("Mouted")
 
     // Call the fetchData function when the component mounts
     fetchData();
